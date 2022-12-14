@@ -1205,12 +1205,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dialoguer
-
-'
+  m_text: "\u540D\u7A31\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b90240d088cea6942a0eb9423814f96a, type: 2}
+  m_sharedMaterial: {fileID: -6262896657773677107, guid: b90240d088cea6942a0eb9423814f96a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2478,18 +2476,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170096878}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 527347207}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -42, y: 38}
-  m_SizeDelta: {x: 30, y: 30}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 31}
+  m_SizeDelta: {x: 19.457092, y: 19.4571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170096880
 MonoBehaviour:
@@ -2511,7 +2509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a9fb9e2877bb90648b619a5ab39abcc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2665,6 +2663,8 @@ GameObject:
   - component: {fileID: 1378115517}
   - component: {fileID: 1378115516}
   - component: {fileID: 1378115515}
+  - component: {fileID: 1378115519}
+  - component: {fileID: 1378115520}
   m_Layer: 5
   m_Name: "\u756B\u5E03\u5C0D\u8A71\u7CFB\u7D71"
   m_TagString: Untagged
@@ -2754,6 +2754,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &1378115519
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378115514}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!114 &1378115520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378115514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2af0849c83af204faa51bcc7066385e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueIntervalTime: 0.1
+  dialogueOpening: {fileID: 11400000, guid: 69909f3c50f6cf541a91705fbf01907f, type: 2}
 --- !u!1001 &1393204783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3184,12 +3210,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dialogue Content
-
-'
+  m_text: "\u5C0D\u8A71\u5167\u5BB9\u5C0D\u8A71\u5167\u5BB9\u5C0D\u8A71\u5167\u5BB9\u5C0D\u8A71\u5167\u5BB9\u5C0D\u8A71\u5167\u5BB9"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b90240d088cea6942a0eb9423814f96a, type: 2}
+  m_sharedMaterial: {fileID: -6262896657773677107, guid: b90240d088cea6942a0eb9423814f96a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
