@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace S
+namespace s
 {
     /// <summary>
     /// 對話資料
     /// </summary>
-
-    [CreateAssetMenu(menuName ="S/Dialogue Data",fileName ="New Dialogue Data")]
+    [CreateAssetMenu(menuName = "s/Dialogue Data", fileName = "new Dialogue Data")]
     public class DialogueData : ScriptableObject
     {
         [Header("對話者名稱")]
